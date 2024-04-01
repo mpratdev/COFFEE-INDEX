@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: FAF7F0;
+    background-color: #FAF7F0;
     font-family: 'Epilogue' , monospace;
   }
   
@@ -116,10 +116,23 @@ body {
   }
   
   
-  
+  /* PAGE NAME (MAIN) */
+
+  .current-page {
+    width: 100%;
+    height: 56px;
+    font-size: 16px;
+    margin-bottom: -15px;
+    font-weight: bold;
+    color: #211A0A;
+  }
+
+  .current-page-name {
+    color: #A17D1C;
+  }
+
   
   /* HEADER (MAIN) */
-  
   
   main {
     width: 930px;
@@ -144,7 +157,7 @@ body {
     padding-left: 45px;
     align-items: flex-end;
     padding-top: 230px;
-    color: white;
+    color: #fff;
     border-radius: inherit;
   }
   
