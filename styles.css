@@ -235,5 +235,120 @@ body {
   }
   
   
-  /* SECTION - FEATURED COFFEE (MAIN) */
-  
+  /* SUBSCRIPTIONS */
+
+  .header-subscription {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIG4.pZsN74Ub5Nv59m9yCSlH?pid=ImgGn);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -20px;
+    border-radius: 16px;
+  }
+
+  #h2-better {
+    font-size: 36px;
+    height: 140px;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: -20px;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+
+  .section-subscription {
+    margin-top: 30px;
+  }
+
+  .section-card-subscription {
+    width: 300px;
+    height: 210px;
+    border-radius: 12px;
+    border: 1px solid #F0E3C2;
+  }
+
+  .section-card-subs-inside {
+    width: 255px;
+    height: 75px;
+    margin: 24px auto;
+  }
+
+  .section-card-subscription:hover {
+    background: #F0E3C2;
+  }
+
+  .subs-ul {
+    margin-top: -8px;
+  }
+
+  .plan-name {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plan-name div {
+    width: 100px;
+    background: #FAC738;
+    font-size: 12px;
+    color: #AB2117;
+    font-weight: bold;
+    border-radius: 12px;
+    padding-top: 6px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+
+  .plan-name h3 {
+    margin: 0;
+    padding-top: 3px;
+  }
+
+  .plan-price {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .price {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .shipment {
+    font-weight: bold;
+    margin-left: 6px;
+  }
+
+  .section-card-subs-inside ul {
+    font-size: 14px;
+    line-height: 1.4rem;
+    list-style: none;
+    margin-left: -40px;
+  }
+
+  .section-card-subs-inside li:before {
+    content: '✓';
+    font-size: 14px;
+    margin-right: 11px;
+  }
+
+  .delivery-frequency {
+    height: 224px;
+    padding-top: 12px;
+  }
+
+  .delivery-form-input {
+    width: 928px;
+    height: 56px;
+    border: 1px solid #F0E3C2;
+    border-radius: 12px;
+  }
+
+  .delivery-form-input input{
+    width: 50px;
+    height: 20px;
+  }
+
+  .week-2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
