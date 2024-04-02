@@ -167,12 +167,14 @@ main {
 }
 
 
-.div-header-content a {
+.div-header-content a,
+#add-to-subscription a {
   text-decoration: none;
 }
 
 
-.div-header-content a div {
+.div-header-content a div,
+#add-to-subscription div {
   box-sizing: border-box;
   width: 180px;
   height: 48px;
@@ -187,10 +189,7 @@ main {
 }
 
 
-
-
 /* SECTIONS */
-
 
 .section-top-products {
   width: 100%;
@@ -419,4 +418,16 @@ input[type="radio"]:checked {
 
 .section-card-subs-beans img {
   object-fit: cover;
+}
+
+
+/* SUBSCRIPTIONS button - add to subscription */
+
+#add-to-subscription div {
+  width: 205px;
+  background-color: #F5F0DB;
+  color: #211A0A;
+  margin-right: 0px;
+  margin-left: auto;
+  margin-top: 12px;
 }
