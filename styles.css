@@ -413,3 +413,10 @@ input[type="radio"]:checked {
 .delivery-form-input:has(input:checked) input[type="radio"]:checked {
   background-color: #F0E3C2;
 }
+
+
+/* SUBSCRIPTIONS section - delivery frequency */
+
+.section-card-subs-beans img {
+  object-fit: cover;
+}
