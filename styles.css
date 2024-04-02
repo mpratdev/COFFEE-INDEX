@@ -1,354 +1,415 @@
 /* GENERAL */
 
-
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #FAF7F0;
-    font-family: 'Epilogue' , monospace;
-  }
-  
-  
-  
-  
-  /* NAVIGATION BAR */
-  
-  
-  nav {
-    width: 100%;
-    height: 65px;
-    display: flex;
-    border-bottom: 1px solid #E5E8EB;
-    color: #21190A;
-    box-sizing: border-box;
-  }
-  
-  
-  #nav-a-crown {
-    text-decoration: none;
-    color: currentColor;
-    display: flex;
-  }
-  
-  
-  .div-nav-icon {
-    display: flex;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-left: 40px;
-    letter-spacing: 1px;
-    align-items: center;
-  }
-  
-  
-  .div-nav-icon svg {
-    vertical-align: middle;
-    padding-bottom: 4px;
-    margin-right: 10px;
-  }
-  
-  
-  .div-nav-right {
-    display: flex;
-    width: 744px;
-    margin-left: auto;
-    margin-right: 0;
-    align-items: center;
-    font-weight: 500;
-    font-size: 14px;
-  }
-  
-  
-  .div-nav-right-anchors {
-    width: 489px;
-    margin-right: 32px;
-    margin-left: auto;
-  }
-  
-  
-  .div-nav-right-anchors a {
-    margin-right: 36px;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-  }
-  
-  
-  #last-a {
-    margin: 0;
-  }
-  
-  
-  .div-nav-right-icons {
-    display: flex;
-    margin-left: 0;
-    margin-right: 40px;
-  }
-  
-  
-  .div-nav-right-icon {
-    width: 40px;
-    height: 40px;
-    background-color: #F5F0DB;
-    margin-right: 8px;
-    border-radius: 12px;
-  }
-  
-  
-  .div-nav-right-icon svg {
-    width: 100%;
-    padding-top: 8px;
-    margin: auto;
-  }
-  
-  
-  .login {
-    font-weight: bold;
-    width: 84px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  
-  .login p {
-    padding-left: 20px;
-    font-size: 14px;
-  }
-  
-  
-  /* PAGE NAME (MAIN) */
+  margin: 0;
+  padding: 0;
+  background-color: #FAF7F0;
+  font-family: 'Epilogue', monospace;
+}
 
-  .current-page {
-    width: 100%;
-    height: 56px;
-    font-size: 16px;
-    margin-bottom: -15px;
-    font-weight: bold;
-    color: #211A0A;
-  }
 
-  .current-page-name {
-    color: #A17D1C;
-  }
+/* NAVIGATION BAR */
 
-  
-  /* HEADER (MAIN) */
-  
-  main {
-    width: 930px;
-    margin: 35px auto;
-  }
-  
-  
-  .header {
-    width: 100%;
-    height: 480px;
-    background-image: url(https://tse2.mm.bing.net/th/id/OIG4.jyS7ju.cAkbMH5MXJx9A?pid=ImgGn);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 0 -104px;
-    border-radius: 16px;
-  }
-  
-  
-  .div-header-content {
-    background: linear-gradient(to top, #000, transparent);
-    height: 250px;
-    padding-left: 45px;
-    align-items: flex-end;
-    padding-top: 230px;
-    color: #fff;
-    border-radius: inherit;
-  }
-  
-  
-  .div-header-content h1 {
-    font-size: 48px;
-    margin-bottom: 0;
-  }
-  
-  
-  .div-header-content h2 {
-    font-size: 16px;
-    margin-bottom: 25px;
-  }
-  
-  
-  .div-header-content a {
-    text-decoration: none;
-  }
-  
-  
-  .div-header-content a div {
-    box-sizing: border-box;
-    width: 180px;
-    height: 48px;
-    background-color: #FAC738;
-    color: #AB2117;
-    padding: 0px 20px;
-    border-radius: 12px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 16px;
-  }
-  
-  
-  
-  
-  /* SECTIONS */
-  
-  
-  .section-top-products {
-    width: 100%;
-    height: 434px;
-    margin-top: 35px;
-  }
-  
-  
-  .section-cards {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  
-  .section-card {
-    width: 300px;
-    height: 390px;
-    color: #211A0A;
-  }
-  
-  
-  .section-card img {
-    width: 300px;
-    height: 300px;
-    border-radius: 12px;
-    margin-bottom: -5px;
-  }
-  
-  
-  .section-card p {
-    font-size: 14px;
-    color: #A17D1C;
-    margin-top: -10px;
-    line-height: 1rem;
-  }
-  
-  
-  /* SUBSCRIPTIONS */
+nav {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  border-bottom: 1px solid #E5E8EB;
+  color: #21190A;
+  box-sizing: border-box;
+}
 
-  .header-subscription {
-    background-image: url(https://tse3.mm.bing.net/th/id/OIG4.pZsN74Ub5Nv59m9yCSlH?pid=ImgGn);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 0 -20px;
-    border-radius: 16px;
-  }
+#nav-a-crown {
+  text-decoration: none;
+  color: currentColor;
+  display: flex;
+}
 
-  #h2-better {
-    font-size: 36px;
-    height: 140px;
-    padding-top: 50px;
-    margin-top: 0;
-    margin-bottom: -20px;
-    box-sizing: border-box;
-    font-weight: bold;
-  }
+.div-nav-icon {
+  display: flex;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 40px;
+  letter-spacing: 1px;
+  align-items: center;
+}
 
-  .section-subscription {
-    margin-top: 30px;
-  }
+.div-nav-icon svg {
+  vertical-align: middle;
+  padding-bottom: 4px;
+  margin-right: 10px;
+}
 
-  .section-card-subscription {
-    width: 300px;
-    height: 210px;
-    border-radius: 12px;
-    border: 1px solid #F0E3C2;
-  }
 
-  .section-card-subs-inside {
-    width: 255px;
-    height: 75px;
-    margin: 24px auto;
-  }
+.div-nav-right {
+  display: flex;
+  width: 744px;
+  margin-left: auto;
+  margin-right: 0;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+}
 
-  .section-card-subscription:hover {
-    background: #F0E3C2;
-  }
 
-  .subs-ul {
-    margin-top: -8px;
-  }
+.div-nav-right-anchors {
+  width: 489px;
+  margin-right: 32px;
+  margin-left: auto;
+}
 
-  .plan-name {
-    height: 24px;
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .plan-name div {
-    width: 100px;
-    background: #FAC738;
-    font-size: 12px;
-    color: #AB2117;
-    font-weight: bold;
-    border-radius: 12px;
-    padding-top: 6px;
-    padding-left: 10px;
-    box-sizing: border-box;
-  }
+.div-nav-right-anchors a {
+  margin-right: 36px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
 
-  .plan-name h3 {
-    margin: 0;
-    padding-top: 3px;
-  }
 
-  .plan-price {
-    display: flex;
-    margin-top: 10px;
-  }
+#last-a {
+  margin: 0;
+}
 
-  .price {
-    font-weight: bold;
-    font-size: 36px;
-  }
 
-  .shipment {
-    font-weight: bold;
-    margin-left: 6px;
-  }
+.div-nav-right-icons {
+  display: flex;
+  margin-left: 0;
+  margin-right: 40px;
+}
 
-  .section-card-subs-inside ul {
-    font-size: 14px;
-    line-height: 1.4rem;
-    list-style: none;
-    margin-left: -40px;
-  }
 
-  .section-card-subs-inside li:before {
-    content: '✓';
-    font-size: 14px;
-    margin-right: 11px;
-  }
+.div-nav-right-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #F5F0DB;
+  margin-right: 8px;
+  border-radius: 12px;
+}
 
-  .delivery-frequency {
-    height: 224px;
-    padding-top: 12px;
-  }
 
-  .delivery-form-input {
-    width: 928px;
-    height: 56px;
-    border: 1px solid #F0E3C2;
-    border-radius: 12px;
-  }
+.div-nav-right-icon svg {
+  width: 100%;
+  padding-top: 8px;
+  margin: auto;
+}
 
-  .delivery-form-input input{
-    width: 50px;
-    height: 20px;
-  }
 
-  .week-2 {
-    margin-top: 12px;
-    margin-bottom: 12px;
-  }
+.login {
+  font-weight: bold;
+  width: 84px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.login p {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+
+/* PAGE NAME (MAIN) */
+
+.current-page {
+  width: 100%;
+  height: 56px;
+  font-size: 16px;
+  margin-bottom: -15px;
+  font-weight: bold;
+  color: #211A0A;
+}
+
+.current-page-name {
+  color: #A17D1C;
+}
+
+
+/* HEADER (MAIN) */
+
+main {
+  width: 930px;
+  margin: 35px auto;
+}
+
+
+.header {
+  width: 100%;
+  height: 480px;
+  background-image: url(https://tse2.mm.bing.net/th/id/OIG4.jyS7ju.cAkbMH5MXJx9A?pid=ImgGn);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -104px;
+  border-radius: 16px;
+}
+
+
+.div-header-content {
+  background: linear-gradient(to top, #000, transparent);
+  height: 250px;
+  padding-left: 45px;
+  align-items: flex-end;
+  padding-top: 230px;
+  color: #fff;
+  border-radius: inherit;
+}
+
+
+.div-header-content h1 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+
+.div-header-content h2 {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+
+.div-header-content a {
+  text-decoration: none;
+}
+
+
+.div-header-content a div {
+  box-sizing: border-box;
+  width: 180px;
+  height: 48px;
+  background-color: #FAC738;
+  color: #AB2117;
+  padding: 0px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 16px;
+}
+
+
+
+
+/* SECTIONS */
+
+
+.section-top-products {
+  width: 100%;
+  height: 434px;
+  margin-top: 35px;
+}
+
+
+.section-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.section-card {
+  width: 300px;
+  height: 390px;
+  color: #211A0A;
+}
+
+
+.section-card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  margin-bottom: -5px;
+}
+
+
+.section-card p {
+  font-size: 14px;
+  color: #A17D1C;
+  margin-top: -10px;
+  line-height: 1rem;
+}
+
+
+/* SUBSCRIPTIONS header */
+
+.header-subscription {
+  background-image: url(https://tse3.mm.bing.net/th/id/OIG4.pZsN74Ub5Nv59m9yCSlH?pid=ImgGn);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -20px;
+  border-radius: 16px;
+}
+
+
+/* SUBSCRIPTIONS sections */
+
+#h2-better {
+  font-size: 36px;
+  height: 140px;
+  padding-top: 50px;
+  margin-top: 0;
+  margin-bottom: -20px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.section-subscription {
+  margin-top: 30px;
+}
+
+
+/* SUBSCRIPTIONS cards - plans & pricing*/
+
+.section-card-subscription {
+  width: 300px;
+  height: 210px;
+  border-radius: 12px;
+  border: 1px solid #F0E3C2;
+}
+
+.section-card-subs-inside {
+  width: 255px;
+  height: 75px;
+  margin: 24px auto;
+}
+
+.section-card-subscription:hover {
+  background: #F0E3C2;
+  border-color: #FAC738;
+}
+
+/* static background and border when checked */
+
+.transparent {
+  display: none;
+}
+
+input[type="radio"]:checked+.section-card-subscription {
+  background: #F0E3C2;
+  border-color: #FAC738;
+}
+
+.subs-ul {
+  margin-top: -8px;
+}
+
+.plan-name {
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-name div {
+  width: 100px;
+  background: #FAC738;
+  font-size: 12px;
+  color: #AB2117;
+  font-weight: bold;
+  border-radius: 12px;
+  padding-top: 6px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.plan-name h3 {
+  margin: 0;
+  padding-top: 3px;
+}
+
+.plan-price {
+  display: flex;
+  margin-top: 10px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.shipment {
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.section-card-subs-inside ul {
+  font-size: 14px;
+  line-height: 1.4rem;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.section-card-subs-inside li:before {
+  content: '✓';
+  font-size: 14px;
+  margin-right: 11px;
+}
+
+
+/* SUBSCRIPTIONS section - delivery frequency */
+
+.delivery-frequency {
+  height: 224px;
+  padding-top: 12px;
+}
+
+.week-2 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.delivery-form-input {
+  width: 928px;
+  height: 56px;
+  border: 1px solid #F0E3C2;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.delivery-form-input span {
+  padding-top: 6px;
+}
+
+.delivery-form-input input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #F0E3C2;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 16px;
+  background-color: #faf7f0;
+  position: relative;
+  margin: 19px 16px 15px 15px;
+}
+
+.delivery-form-input input[type="radio"]::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.delivery-form-input input[type="radio"]:checked::before {
+  background-color: #FAC738;
+}
+
+input[type="radio"]:checked {
+  border-color: #FAC738;
+}
+
+/* background and border change when checked */
+.delivery-form-input:has(input:checked) {
+  background-color: #F0E3C2;
+  border-color: #FAC738;
+}
+
+.delivery-form-input:has(input:checked) input[type="radio"]:checked {
+  background-color: #F0E3C2;
+}
