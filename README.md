@@ -1,13 +1,13 @@
-## Currently working on...
+## 🚶 Currently working on...
 
-All good
+:feelsgood: All good :feelsgood:
 
-## Pendent work...
+## ⏰ Pendent work...
 
 🦾 full form on subscription page with add to subscription as the input submit,
 coose your beans decision indicator, 3 diferents plans/pricing, header and add
-to subscription button clicable area🦾
+to subscription button clicable area 🦾
 
-## After that...
+## ⏲️ After that...
 
-Product page
+☕ Product page ☕
