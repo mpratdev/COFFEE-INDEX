@@ -168,13 +168,15 @@ main {
 
 
 .div-header-content a,
-#add-to-subscription a {
+#add-to-subscription a,
+.product-type {
   text-decoration: none;
 }
 
 
 .div-header-content a div,
-#add-to-subscription div {
+#add-to-subscription div,
+.product-type-content div {
   box-sizing: border-box;
   width: 180px;
   height: 48px;
@@ -438,9 +440,8 @@ input[type="radio"]:checked {
 footer {
   width: 930px;
   height: 130px;
-  margin: 45px auto;
-  padding-top: 30px;
-  padding-bottom: 0px;
+  margin: 75px auto;
+  padding-top: 10px;
   margin-bottom: 15px;
   color: #C0A665;
 }
@@ -476,4 +477,37 @@ footer {
   margin-top: 20px;
   text-align: center;
   font-size: 16px;
+}
+
+
+/* SHOP */
+
+.product-type {
+  width: 100%;
+  height: 140px;
+  background-image: url(https://tse2.mm.bing.net/th/id/OIG4.jyS7ju.cAkbMH5MXJx9A?pid=ImgGn);
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 16px;
+}
+
+.product-type-content {
+  box-sizing: border-box;
+  background: linear-gradient(to top, #000, transparent);
+  height: 140px;
+  padding-top: 50px;
+  color: #fff;
+  border-radius: inherit;
+}
+
+.product-type-content h2 {
+  font-size: 48px;
+  width: 387px;
+  margin: auto;
+  color: white;
+}
+
+#second-product-type {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
