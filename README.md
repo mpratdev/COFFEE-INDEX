@@ -1,6 +1,6 @@
 ## 🚶 Currently working on...
 
-:feelsgood: All good :feelsgood:
+:feelsgood: Shop.html :feelsgood:
 
 ## ⏰ Pendent work...
 
@@ -14,4 +14,4 @@ to subscription button clicable area 🦾
 
 ## To fix...
 
-Footer text color, size, margins and icons (svg).
+👍 All good 👍
