@@ -431,3 +431,49 @@ input[type="radio"]:checked {
   margin-left: auto;
   margin-top: 12px;
 }
+
+
+/* FOOTER general */
+
+footer {
+  width: 930px;
+  height: 130px;
+  margin: 45px auto;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 15px;
+  color: #C0A665;
+}
+
+/* FOOTER first line */
+.footer-a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.div-footer-anchors .footer-a {
+  width: 110px;
+  text-align: center;
+}
+
+.div-footer-anchors {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FOOTER second line */
+.div-footer-svgs {
+  width: 140px;
+  margin: auto;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FOOTER third (last) line*/
+.footer-copy {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
